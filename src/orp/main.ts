@@ -1,5 +1,10 @@
 //codigo sujo
 
+/*
+Open/closed principle
+Entidades devem estar abertas para extensão, mas fechadas para modificação.
+*/
+
 import { Messaging } from './services-infraestructure/classe-messaging';
 import { Order } from './classes/classe-order';
 import { Persistency } from './services-infraestructure/classe-persistency';
